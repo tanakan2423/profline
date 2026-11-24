@@ -1,10 +1,14 @@
 import { AdminPage } from './pages/admin'
 import { HomePage } from './pages/home'
+import { AboutPage } from './pages/About'
+import { ContactPage } from './pages/Contact'
 
 
 const routes={
   '/':HomePage,
   '/admin' : AdminPage,
+  '/about':AboutPage,
+  '/contact' : ContactPage,
 }
 
 function render(){
